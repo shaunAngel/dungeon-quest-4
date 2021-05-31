@@ -125,7 +125,12 @@ function draw(){
   }
   //camera.position.x = prince.x 
   vampires();
+
+  if(mousePressedOver(restartImg)) {
+          reset();
+        }
   drawSprites();
+  
 }
 
 function vampires(){
